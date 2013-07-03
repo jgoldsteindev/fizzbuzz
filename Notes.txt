@@ -1,0 +1,17 @@
+------------------------------------
+-RulePrinter \ FizzBuzz Application-
+------------------------------------
+
+RulePrinter Library Includes:
+	- RulePrinter class that allows for custom Start, End, DefaultString, Rules, and dynamic iteration up or down based on the Start and End values
+	- Basic FizzBuzzer that inherits from RulePrinter and includes the two basic "FizzBuzz" rules
+	- Custom FizzBuzzer that inherits from BasicFizzBuzzer and includes two additional rules:
+		(1) If a multiple of 4, print "quarterly"
+		(2) If equals 21, print "blackjack"
+
+
+Fizzbuzz Console App Includes:
+	- BasicFizzbuzzer from 1 to 100
+	- BasicFizzbuzzer from 100 to 1
+	- CustomFizzBuzzer from 1 to 100
+	- Performance Test of CustomFizzBuzzer Execution from 1 to 1,000,000
